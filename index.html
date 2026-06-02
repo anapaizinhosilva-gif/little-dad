@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Curitiba - Guia Turístico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>O Que Fazer em Curitiba?</h1>
+            <p>Explore os melhores parques, cafés e restaurantes da capital paranaense.</p>
+        </div>
+    </header>
+
+    <section class="filter-container">
+        <button class="filter-btn active" data-filter="all">Tudo</button>
+        <button class="filter-btn" data-filter="parques">Parques</button>
+        <button class="filter-btn" data-filter="cafes">Cafés</button>
+        <button class="filter-btn" data-filter="restaurantes">Restaurantes</button>
+    </section>
+
+    <main class="grid-container">
+       
+        <article class="card" data-category="parques">
+            <div class="card-image bg-botanico"></div>
+            <div class="card-content">
+                <span class="badge badge-parque">Parque</span>
+                <h3>Jardim Botânico</h3>
+                <p>O principal cartão-postal da cidade. Sua famosa estufa de ferro e vidro abriga plantas tropicais e é inspirada no Palácio de Cristal de Londres.</p>
+            </div>
+        </article>
+
+        <article class="card" data-category="parques">
+            <div class="card-image bg-tangua"></div>
+            <div class="card-content">
+                <span class="badge badge-parque">Parque</span>
+                <h3>Parque Tanguá</h3>
+                <p>Construído em um complexo de antigas pedreiras, oferece um dos pores do sol mais bonitos da cidade, além de um jardim francês e um mirante imponente.</p>
+            </div>
+        </article>
+
+        <article class="card" data-category="cafes">
+            <div class="card-image bg-lucca"></div>
+            <div class="card-content">
+                <span class="badge badge-cafe">Café</span>
+                <h3>Lucca Cafés Especiais</h3>
+                <p>Localizado no Batel, é uma referência nacional em cafés premiados. Perfeito para quem quer degustar métodos de extração variados e grãos selecionados.</p>
+            </div>
+        </article>
+
+        <article class="card" data-category="cafes">
+            <div class="card-image bg-botanica-cafe"></div>
+            <div class="card-content">
+                <span class="badge badge-cafe">Café</span>
+                <h3>Botanique Café</h3>
+                <p>Um refúgio que mistura café, plantas e bar. O ambiente é super charmoso, cercado de verde, ideal para um brunch descontraído no fim de semana.</p>
+            </div>
+        </article>
+
+        <article class="card" data-category="restaurantes">
+            <div class="card-image bg-madalosso"></div>
+            <div class="card-content">
+                <span class="badge badge-restaurante">Restaurante</span>
+                <h3>Madalosso</h3>
+                <p>Localizado no tradicional bairro de Santa Felicidade, é o maior restaurante das Américas. Famoso pelo rodízio italiano com frango a passarinho, polenta e massas.</p>
+            </div>
+        </article>
+
+        <article class="card" data-category="restaurantes">
+            <div class="card-image bg-manu"></div>
+            <div class="card-content">
+                <span class="badge badge-restaurante">Restaurante</span>
+                <h3>Manu</h3>
+                <p>Comandado pela premiada chef Manu Buffara, oferece um menu degustação focado em ingredientes frescos de produtores locais e na alta gastronomia contemporânea.</p>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Guia Curitiba. Feito com ❤️ para exploradores urbanos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
